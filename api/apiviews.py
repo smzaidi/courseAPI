@@ -2,7 +2,6 @@ from django.http import HttpResponse
 from .models import CourseNumber
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-import json
 from .serializers import CourseSerializer
 from rest_framework.exceptions import ValidationError
 
